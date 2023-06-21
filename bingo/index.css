@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#participants {
+    margin-bottom: 20px;
+}
+
+#participants label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#participants input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#participants button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#participants button:hover {
+    background-color: #45a049;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.numbers-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.numbers-list li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.numbers-list li.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#called-numbers {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #3be16d;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

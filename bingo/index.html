@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Bingo</h1>
+    <div id="participants">
+        <label for="participant">Nome do Participante:</label>
+        <input type="text" id="participant" placeholder="Digite o nome do participante">
+        <button onclick="adicionarParticipante()">Adicionar</button>
+    </div>
+    <div id="cards"></div>
+    <button onclick="gerarCartelas()">Gerar Cartelas</button>
+    <button onclick="iniciarBingo()">Iniciar Bingo</button>
+    <div id="called-numbers"></div>
+    <footer>
+        <p>Developed by @Bruno</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
